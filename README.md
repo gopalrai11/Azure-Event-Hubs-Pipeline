@@ -20,3 +20,25 @@ graph TD
     C --> F[Databricks Workflows for Alerting, optional]
 
 ```
+
+## 🧰 Tech Stack
+Azure Event Hubs: Real-time ingestion of telemetry
+
+Databricks DLT: Stream processing, schema enforcement, Delta Lake
+
+Azure Key Vault: Secure management of secrets (Event Hub credentials, tokens)
+
+Azure Data Lake Storage Gen2: Scalable storage for bronze/silver/gold data layers
+
+Power BI: Real-time reporting and dashboards
+
+Databricks Workflows: Job orchestration and monitoring
+
+GitHub Actions: CI/CD for deploying notebooks and jobs
+
+## 📁 Lakehouse Layers
+Bronze Layer: Raw sensor data from Event Hubs
+
+Silver Layer: Cleansed & transformed data
+
+Gold Layer: Aggregated KPIs for dashboards and alerts
