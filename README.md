@@ -11,10 +11,11 @@ This project is a production-ready real-time analytics pipeline designed for str
 ---
 
 ## 🧭 Architecture
+```mermaid
 graph TD
     A[Simulated IoT Sensor Data] --> B[Azure Event Hubs]
     B --> C[Databricks DLT (Streaming)]
     C --> D[Delta Lake on ADLS Gen2]
     D --> E[Power BI Dashboard]
-    C --> F[Azure Function (Alerting)]
+    C --> F[Azure Function (Alerting, optional)]
 
