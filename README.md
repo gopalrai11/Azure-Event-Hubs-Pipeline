@@ -42,3 +42,19 @@ Bronze Layer: Raw sensor data from Event Hubs
 Silver Layer: Cleansed & transformed data
 
 Gold Layer: Aggregated KPIs for dashboards and alerts
+
+## 📊 Sample Use Case
+Use Case: Monitor factory temperature and humidity sensors. Trigger alerts when thresholds are crossed and visualize the trends.
+
+## ⚙️ Setup Instructions
+Create and configure Azure Event Hub
+
+Deploy Databricks notebooks using GitHub Actions or Databricks CLI
+
+Set up Key Vault-backed secret scope
+
+Configure Delta Live Tables pipeline (bronze → silver → gold)
+
+Create Power BI dashboard with DirectLake or Delta refresh
+
+(Optional) Deploy Azure Function for alerting via email or webhook
