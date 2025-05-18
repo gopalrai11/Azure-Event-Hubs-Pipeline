@@ -19,3 +19,4 @@ graph TD
     D --> E[Power BI Dashboard]
     C --> F[Azure Function (Alerting, optional)]
 
+```
