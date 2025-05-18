@@ -17,6 +17,6 @@ graph TD
     B --> C[Databricks DLT Streaming]
     C --> D[Delta Lake on ADLS Gen2]
     D --> E[Power BI Dashboard]
-    C --> F[Azure Function (Alerting, optional)]
+    C --> F[Databricks Workflows for Alerting, optional]
 
 ```
